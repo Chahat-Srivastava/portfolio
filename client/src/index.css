@@ -1,0 +1,66 @@
+/* src/index.css */
+@import "bulma/css/bulma.min.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.image img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+/* Add this to your main CSS file (e.g., index.css) */
+.content strong {
+  color: #3273dc; /* Primary blue color for emphasis */
+  font-size: 1.4rem;
+}
+
+.content em {
+  color: #ff6f61; /* Accent color for italicized text */
+  font-style: italic;
+}
+
+.column {
+  padding: 2rem;
+}
+/* Add this to your main CSS file (e.g., index.css) */
+
+/* Style the card content */
+.card-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card-content li {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  padding: 5px 0;
+}
+
+.card-content li:hover {
+  color: #3273dc; /* Change color on hover */
+  transition: 0.3s;
+}
+
+/* Highlight titles */
+.title.is-5 {
+  color: #3273dc;
+  font-weight: bold;
+}
+
+/* Add some spacing between the cards */
+.column {
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,22 @@
+/* Add this in your styles.css or in your main CSS file */
+.dark-background {
+    background-color: #2c2c2c; /* Dark background color */
+    color: white; /* Light text color for contrast */
+  }
+  
+  .has-text-light {
+    color: white; /* Light text color */
+  }
+  
+  .content {
+    color: #E1E1E1; /* Soft white text for better readability */
+  }
+  
+  .title {
+    color: #3273dc; /* Primary color for title */
+  }
+  
+  .is-rounded {
+    border: 5px solid #3273dc; /* Primary color border for the image */
+  }
+  
