@@ -13,8 +13,10 @@ function Navbar() {
         <div className="navbar-end">
           <Link className="navbar-item" to="/">Home</Link>
           <Link className="navbar-item" to="/about">About</Link>
+          <Link className="navbar-item" to="/education">Education</Link>
           <Link className="navbar-item" to="/skills">Skills</Link>
           <Link className="navbar-item" to="/projects">Projects</Link>
+          <Link className="navbar-item" to="/achievements">Achievements</Link>
           <Link className="navbar-item" to="/contact">Contact</Link>
         </div>
       </div>

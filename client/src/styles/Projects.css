@@ -1,0 +1,44 @@
+/* General Section Styling */
+.dark-background {
+    background-color: #1c1c1c;
+    padding: 50px 0;
+  }
+  
+  .project-box {
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Heading Styles */
+  .title.has-text-centered {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Button Styling */
+  .button.is-primary {
+    background-color: #3273dc;
+    border-color: #3273dc;
+    color: #fff;
+  }
+  
+  .button.is-primary:hover {
+    background-color: #2653a6;
+    border-color: #2653a6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .project-box {
+      text-align: center;
+    }
+  }
+  

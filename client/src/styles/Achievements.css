@@ -1,0 +1,73 @@
+/* General Styling for Achievements Section */
+#achievements {
+    background-color: #1e293b; /* Dark background to match theme */
+    padding: 50px 0;
+    color: #e2e8f0; /* Light text color for contrast */
+  }
+  
+  /* Section Title Styling */
+  #achievements h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #e2e8f0; /* Light title color */
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* List Styling for Achievements */
+  #achievements .columns {
+    margin-top: 20px;
+  }
+  
+  #achievements .column {
+    padding: 20px;
+  }
+  
+  /* Achievement Cards */
+  #achievements .card {
+    background-color: #334155; /* Lighter background for cards */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover Effects for Cards */
+  #achievements .card:hover {
+    transform: scale(1.05);
+    background-color: #2d3748; /* Darken card on hover */
+  }
+  
+  /* Card Content Styling */
+  #achievements .card-content {
+    padding: 20px;
+  }
+  
+  /* Styling for Title in Each Achievement Card */
+  #achievements .card-header-title {
+    color: #60a5fa; /* Blue color to make titles stand out */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Styling for Position and Date */
+  #achievements .card-content p {
+    font-size: 16px;
+    color: #cbd5e1; /* Light grey text color */
+    margin: 0 0 10px 0;
+  }
+  
+  /* Position and Date Section - Date in Orange to Highlight */
+  #achievements .card-content p strong {
+    color: #fbbf24; /* Orange-yellow color for dates */
+    font-weight: bold;
+  }
+  
+  /* Duration Styling */
+  #achievements .card-content p span {
+    font-size: 12px;
+    color: #fbbf24; /* Same orange-yellow color for the dates */
+    font-weight: bold;
+  }
+  
