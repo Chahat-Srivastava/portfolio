@@ -5,6 +5,7 @@ import Leetcode from "../assets/leetcode.png";
 import Linkedin from "../assets/linkedin.png";
 import GFG from "../assets/gfg.png";
 import Codeforces from "../assets/codeforces.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   const scrollToAbout = () => {
@@ -84,11 +85,14 @@ function Home() {
 
           {/* Button to learn more */}
           <div className="mt-6">
+          <Link to="/about">
             <button className="button is-dark is-large mt-4">
-            <a href="#/about">
+            
+            
               Learn More
-            </a>
+
             </button>
+            </Link>
           </div>
         </div>
       </div>
