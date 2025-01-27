@@ -1,0 +1,65 @@
+/* General Styling for Training Section */
+#training {
+    background-color: #0f172a; /* Deep blue for a professional look */
+    padding: 50px 0;
+    color: #f8fafc; /* Light text color for readability */
+  }
+  
+  /* Section Title Styling */
+  #training h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #60a5fa; /* Blue text color for the title */
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  /* Training Cards Styling */
+  #training .card {
+    background-color: #1e293b; /* Dark card background */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover Effect */
+  #training .card:hover {
+    transform: scale(1.05);
+    background-color: #2d3748; /* Slightly darker card on hover */
+  }
+  
+  /* Card Header and Content */
+  #training .card-header-title {
+    color: #fbbf24; /* Golden color for card titles */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  #training .card-content p {
+    font-size: 16px;
+    color: #e2e8f0; /* Light grey text for content */
+  }
+  
+  #training .card-content strong {
+    color: #38bdf8; /* Highlighted text in blue */
+    font-weight: bold;
+  }
+  
+  /* Animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  #training .columns {
+    animation: fadeInUp 1s ease-out;
+  }
+  

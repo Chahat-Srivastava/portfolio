@@ -81,9 +81,7 @@ function About() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 1.4 }}
               >
-                I am a passionate Software Developer specializing in Web
-                Development (MERN stack) and Machine Learning. As a final-year
-                B.Tech student in Computer Science and Engineering, I thrive on
+                As a final-year B.Tech student in Computer Science and Engineering, I thrive on
                 crafting innovative solutions to complex problems.
               </motion.p>
               <motion.p

@@ -1,4 +1,10 @@
 import React from "react";
+import '../styles/Home.css';
+import Github from "../assets/github.png";
+import Leetcode from "../assets/leetcode.png";
+import Linkedin from "../assets/linkedin.png";
+import GFG from "../assets/gfg.png";
+import Codeforces from "../assets/codeforces.png";
 
 function Home() {
   const scrollToAbout = () => {
@@ -7,7 +13,7 @@ function Home() {
   };
 
   return (
-    <section className="hero dark-background is-fullheight">
+    <section className="hero is-fullheight has-background-dark">
       <div className="hero-body">
         <div className="container has-text-centered">
           {/* Main Title and Subtitle */}
@@ -28,9 +34,57 @@ function Home() {
             </p>
           </div>
 
+          {/* Social Links */}
+          <div className="social-links mt-6">
+            <p className="has-text-light is-size-4 mb-4">Connect with me:</p>
+            <div className="icon-container">
+              <a
+                href="https://github.com/Chahat-Srivastava"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link"
+              >
+                <img src={Github} alt="GitHub" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/chahat-srivastava-1ba0b6215/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link"
+              >
+                <img src={Linkedin} alt="LinkedIn" />
+              </a>
+              <a
+                href="https://leetcode.com/u/chahatsrivastava019/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link"
+              >
+                <img src={Leetcode} alt="LeetCode" />
+              </a>
+              <a
+                href="https://www.geeksforgeeks.org/user/chahatsrivastava019/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link"
+              >
+                <img src={GFG} alt="GeeksforGeeks" />
+              </a>
+              <a
+                href="https://codeforces.com/profile/ChahatSri"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link"
+              >
+                <img src={Codeforces} alt="Codeforces" />
+              </a>
+            </div>
+          </div>
+
+
           {/* Button to learn more */}
           <div className="mt-6">
-            <button className="button is-light is-large mt-4">
+            <button className="button is-dark is-large mt-4">
             <a href="about">
               Learn More
             </a>
