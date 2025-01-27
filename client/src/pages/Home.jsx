@@ -85,7 +85,7 @@ function Home() {
           {/* Button to learn more */}
           <div className="mt-6">
             <button className="button is-dark is-large mt-4">
-            <a href="about">
+            <a href="/about">
               Learn More
             </a>
             </button>

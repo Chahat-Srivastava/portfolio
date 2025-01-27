@@ -5,13 +5,13 @@ function Navbar() {
   return (
     <nav className="navbar is-dark">
       <div className="navbar-brand">
-        <a className="navbar-item" href="/">
+        <a className="navbar-item" href="#/">
           <strong>My Portfolio</strong>
         </a>
       </div>
       <div className="navbar-menu">
         <div className="navbar-end">
-          <Link className="navbar-item" to="/">Home</Link>
+          <Link className="navbar-item" to="/home">Home</Link>
           <Link className="navbar-item" to="/about">About</Link>
           <Link className="navbar-item" to="/education">Education</Link>
           <Link className="navbar-item" to="/training">Training</Link>
