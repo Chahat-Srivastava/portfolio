@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Chahat-Srivastava/portfolio/static/css/main.cac00936.css",
+    "main.js": "/Chahat-Srivastava/portfolio/static/js/main.d9622830.js",
+    "static/js/488.5dc00adb.chunk.js": "/Chahat-Srivastava/portfolio/static/js/488.5dc00adb.chunk.js",
+    "static/media/linkedin.png": "/Chahat-Srivastava/portfolio/static/media/linkedin.aeb71c9b358577206eeb.png",
+    "static/media/my-photo.jpg": "/Chahat-Srivastava/portfolio/static/media/my-photo.4d78d2700468e9c36fc2.jpg",
+    "static/media/gfg.png": "/Chahat-Srivastava/portfolio/static/media/gfg.d340b925f54fd8d6b795.png",
+    "static/media/codeforces.png": "/Chahat-Srivastava/portfolio/static/media/codeforces.4146a037b18e6653bb3f.png",
+    "index.html": "/Chahat-Srivastava/portfolio/index.html",
+    "main.cac00936.css.map": "/Chahat-Srivastava/portfolio/static/css/main.cac00936.css.map",
+    "main.d9622830.js.map": "/Chahat-Srivastava/portfolio/static/js/main.d9622830.js.map",
+    "488.5dc00adb.chunk.js.map": "/Chahat-Srivastava/portfolio/static/js/488.5dc00adb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cac00936.css",
+    "static/js/main.d9622830.js"
+  ]
+}
