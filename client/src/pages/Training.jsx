@@ -12,6 +12,13 @@ function Training() {
       instructor: "Prof. Dr. Surya Prakash",
     },
     {
+      title: "Data Analytics",
+      description:
+        "100 hours training conducted as a part of Honeywell Phase V Women Empowerment on Advanced IT Skills covering topics like SQL Basics, Azure Fundamentals and Power BI",
+      duration: "Febraury 2025- March 2025",
+      instructor: "Mr. Anoop H A",
+    },
+    {
       title: "Gen-AI Study Jam 2024",
       description:
         "Earned multiple badges while exploring Generative AI concepts and applications through Google Cloud.",

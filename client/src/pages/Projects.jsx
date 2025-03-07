@@ -53,6 +53,13 @@ function Projects() {
       tech: ["React", "Bulma-CSS"],
       link: "https://github.com/Chahat-Srivastava/google-sheets-clone",
     },
+    {
+      title: "Hospital Analytics Dashboard",
+      description:
+        "Hospital Analytics Dashboard is an interactive Power BI dashboard designed to provide real-time insights into hospital operations, patient demographics, and healthcare performance. It helps analyze key metrics such as patient admissions, disease trends, and resource utilization for data-driven decision-making.",
+      tech: ["Power BI","DAX"],
+      link: "https://github.com/Chahat-Srivastava/data-analytics-projects",
+    },
   ];
 
   return (
