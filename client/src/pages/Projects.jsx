@@ -39,6 +39,20 @@ function Projects() {
       tech: ["Keras", "Tensorflow", "Python"],
       link: "https://github.com/Chahat-Srivastava/potato-leaf-disease",
     },
+    {
+      title: "EREN- Desktop Assistant",
+      description:
+        "Desktop Assistant is a virtual assistant built using Python and Tkinter, designed to assist users with various tasks like answering queries, performing basic automation.",
+      tech: ["Python", "Tkinter"],
+      link: "https://github.com/Chahat-Srivastava/desktop-assistant",
+    },
+    {
+      title: "Google Sheets Clone",
+      description:
+        "Google Sheets Clone is a web-based spreadsheet application built using React, enabling users to create, edit, and manage tabular data efficiently with real-time updates and formula support.",
+      tech: ["React", "Bulma-CSS"],
+      link: "https://github.com/Chahat-Srivastava/google-sheets-clone",
+    },
   ];
 
   return (
